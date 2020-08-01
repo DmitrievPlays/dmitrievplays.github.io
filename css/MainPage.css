@@ -3,6 +3,83 @@
 
 /*     CTRL + F5 if something not refreshing      */
 
+.startScreen
+{
+	position: absolute;
+	background: rgb(30, 30, 30);
+	width: 100%;
+	height: 100%;
+	z-index: 33;
+	display: flex;
+	flex-direction: column;
+	opacity: 1;
+	transition: 1s;
+}
+
+@keyframes WelcomeTextAnim
+{
+	0%{bottom: -100%;}
+	100%{bottom: 0%;}
+}
+
+@keyframes WelcomeTimeAnim
+{
+	0%{top: -100%;}
+	100%{top: 0%;}
+}
+
+@keyframes LineAnim
+{
+	0%{transform: scale(0);}
+	100%{transform: scale(1);}
+}
+
+
+.textWelcomeBlock
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.textWelcome
+{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	animation: WelcomeTextAnim 1s;
+	animation-timing-function: ease;
+	font-family: CustomFont2;
+}
+
+.textTimeBlock
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.textTime
+{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	text-align: center;
+	animation: WelcomeTimeAnim 1s;
+	animation-timing-function: ease;
+	font-family: CustomFont2;
+}
+
+.line
+{
+	background: rgb(255, 255, 255);
+	height: 0.6%;
+	animation: LineAnim 3s;
+	animation-timing-function: linear;
+}
 
 .MainPageContent
 {
@@ -30,7 +107,7 @@
 	-webkit-user-select: none;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
 	overflow-y: auto;
-	
+
 }
 
 .Table

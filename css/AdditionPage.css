@@ -21,19 +21,22 @@
 	border-radius: 0px 0px 20px 20px;
 	-webkit-user-select: none;
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
 }
 
 .VKLink, .YTLink, .Secret, .Page404
 {
 	position: relative;
 	background: #12273c;
-	text-align: bottom;
 	vertical-align: text-bottom;
 	font-size: calc(1vw + 1vh);
 	padding: 2px;
 	-webkit-user-select: none;
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
 	transition: .5s;
+	text-decoration: none !important;
+	color: white;
 }
 
 .VKLink:hover, .YTLink:hover, .Secret:hover, .Page404:hover
@@ -53,8 +56,8 @@
 	position: relative;
 	vertical-align: middle;
 	height: 3vw;
-	width: 3vw;  
-	right: 0px; 
+	width: 3vw;
+	right: 0px;
 	border-radius: 80px;
 	margin-right: 10px;
 }
