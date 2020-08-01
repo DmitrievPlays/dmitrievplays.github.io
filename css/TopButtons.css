@@ -1,0 +1,132 @@
+@media screen and (max-width: 1080px) {   /* if < 1080px */
+    body {font-size: 50pt;}
+	.Content {}
+	.videoName {font-size: 50px;}
+	.aboutVideo {font-size: 22px;}
+	.aboutVideoTitle {font-size: 40px;}
+	.ThePageTitle {font-size: calc(1vw + 1vh);}
+}
+
+@media screen and (min-width: 1081px) {  /* if > 1080px  */
+    body { font-size: 30pt;}
+	.Content {}
+	.videoName {font-size: 54px;}
+	.aboutVideo {font-size: 20px;}
+	.aboutVideoTitle {font-size: 36px;}
+	.ThePageTitle {font-size: calc(1vw + 1vh);}
+}
+
+@font-face
+{
+	font-family: CustomFont;
+	src: url(fonts/FredokaOne-Regular.ttf);
+	font-weight: bold;
+}
+
+@font-face
+{
+	font-family: CustomFont2;
+	src: url(fonts/RobotoCondensed-Bold.ttf);
+}
+
+
+
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	min-width: 320px;
+	min-height: calc(100vh);
+	overflow-x: hidden;
+	display: block;
+	background: #ded7d6;
+	color: white;
+}
+
+.ThePageTitle
+{
+	position: fixed;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: calc(1.6vw + 1.6vh);
+	z-index: 1;
+	background: #45a774;
+	font-family: CustomFont;
+	-webkit-user-select: none;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.Top
+{
+	position: relative;
+	background: #349663;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-family: CustomFont2;
+	z-index: 1;
+	-webkit-user-select: none;
+	white-space: normal;
+	display: flex;
+	flex-direction: row;
+}
+
+.ButtonToMain, .ButtonAbout, .Additional, .LastVideo
+{
+	/*font-size: 18px;*/
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	flex: auto;
+	outline-color: yellow;
+	background: #238552;
+	white-space: normal;
+	font-family: CustomFont2;
+	font-size: calc(1vw + 1vh);
+	transition: .5s;
+	color: white;
+}
+
+.ButtonToMain:hover, .ButtonAbout:hover, .Additional:hover, .LastVideo:hover
+{
+	font-size: calc(1.2vw + 1.2vh);
+	background: #127441;
+	transition: .5s;
+	cursor: url("../img/cursor.png"), auto;
+}
+
+.Content
+{
+	position: fixed;
+	background: #ded7d6;
+	z-index: 0;
+	font-family: CustomFont2;
+	text-align: justify;
+	overflow-y: auto;
+	padding: 20px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	top: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #697888;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #748ca4;
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://95.28.178.142/sitemaphere.xml

@@ -1,0 +1,59 @@
+/*------VIDEO PAGE------*/
+
+
+.videoBlock
+{
+	position: relative;
+	background: #12273c;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+	-webkit-user-select: none;
+}
+
+.videoName
+{
+	position: relative;
+	text-align: left;
+	background: #34495e;
+	padding-left: 20px;
+	border-radius: 20px 20px 20px 20px;
+	-webkit-user-select: none;
+}
+
+.videoContainer
+{
+	position: relative;
+	width: 100%;
+}
+
+.aboutVideo
+{
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+	background: #12273c;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+	-webkit-user-select: none;
+}
+
+.aboutVideoTitle
+{
+	position: relative;
+	text-align: center;
+	background: #34495e;
+	border-radius: 20px 20px 20px 20px;
+	-webkit-user-select: none;
+}
+
+.ThePageTitle
+{
+	min-width: 680px;;
+}
+
+iframe
+{
+	width: 70%;
+	height: 39.375vw;
+}

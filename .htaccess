@@ -1,0 +1,3 @@
+ErrorDocument 404 /404error.html
+DirectoryIndex Index.html
+AddType application/x-httpd-php .htm .html

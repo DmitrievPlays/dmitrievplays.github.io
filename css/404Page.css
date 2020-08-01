@@ -1,0 +1,116 @@
+/*------404 PAGE------*/
+
+@media screen and (max-width: 1080px) {  /* if < 1080px */
+    body { font-size: 50pt;}
+	.Content {top: 100px; padding: 30px; padding-top: 160px;}
+	.videoName {font-size: 50px;}
+	.aboutVideo {font-size: 22px;}
+	.aboutVideoTitle {font-size: 40px;}
+	iframe {width: 610px; height: 343px;}
+	#YT {width: 160px; height: 40px}
+}
+
+@media screen and (min-width: 1081px) {  /* if > 1080px */
+    body { font-size: 30pt;}
+	.Content {top: 100px; padding: 30px; padding-top: 130px;}
+	.videoName {font-size: 54px;}
+	.aboutVideo {font-size: 20px;}
+	.aboutVideoTitle {font-size: 36px;}
+	iframe {width: 854px; height: 480px;}
+}
+
+@font-face
+{
+	font-family: CustomFont;
+	src: url(fonts/FredokaOne-Regular.ttf);
+	font-weight: bold;
+}
+
+@font-face
+{
+	font-family: CustomFont2;
+	src: url(fonts/RobotoCondensed-Bold.ttf);
+}
+
+
+@keyframes triangles
+{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes at404
+{
+	0%{text-shadow: 0 0 100px rgba(255,255,255,0.5);}
+	50%{text-shadow: 0 0 95px rgba(255,255,255,0.6);}
+	100%{text-shadow: 0 0 100px rgba(255,255,255,0.5);}
+}
+
+body
+{
+	margin: 0px;
+	background: #0a3d62;
+	-webkit-user-select: none;
+	color: white;
+}
+
+.Content
+{
+	background: #0a3d62;
+	-webkit-user-select: none;
+}
+
+.The404Title
+{
+	display: block;
+	font-size: 160px;
+	font-family: CustomFont;
+	text-align: center;
+	animation: at404 0.3s infinite;
+}
+
+.TheSchwabbles
+{
+	display: block;
+	font-size: 40px;
+	font-family: CustomFont2;
+	text-align: center;
+}
+
+.Sad
+{
+	position: absolute;
+	display: block;
+	font-size: 16px;
+	font-family: CustomFont2;
+	text-align: center;
+	width: 100%;
+	bottom: 20px;
+}
+
+.ThePageTitle
+{
+	background: #1b537d;
+	color: #aaaaaa;
+}
+
+.ThePageTitleText
+{
+	transform: SkewY(2deg);
+	background: #ffffff00;
+	text-align: center;
+	font-family: CustomFont;
+}
+
+img
+{
+	width: 160px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transform-origin: 50% 65.2173%;
+	animation: triangles 30s infinite;
+	animation-timing-function: linear;
+	filter: invert(100%) opacity(15%);
+}
+

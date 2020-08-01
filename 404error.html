@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<HTML>
+<html lang="ru">
+<HEAD>
+ 
+<TITLE>404</TITLE>
+<meta charset="UTF-8">
+<meta name="description" content="404">
+<meta name="viewport" content="width=device-width, initial-scale=0.6">
+<link rel="stylesheet" type="text/css" href="css/404Page.css">
+<link rel="shortcut icon" href="./img/internet.png" type="image/x-icon">
+<script language="JavaScript">
+function On()
+{
+	clip = document.getElementById("HELLO");
+	clip.volume = 0.6;
+	clip.onended = function()
+		{
+			alert("Время ожидания истекло");
+			window.location.href="Index.html";
+		}
+}
+</script>
+
+</HEAD>
+<BODY onload="On()">
+<div class="ThePageTitle"><div class="ThePageTitleText">DMITRIEV PLAYS</div></div>
+
+
+<div class= "Content"><div class="The404Title">404</div><div class="TheSchwabbles">Whooops! Schwabbles!</div></div>
+<img src="./img/triangle.png" draggable="false"></div>
+<audio id="HELLO" src="audio/EM.mp3" autoplay="autoplay">
+</audio>
+
+
+<div class="Sad">КАЖЕТСЯ, СТРАНИЦА НЕ РАБОТАЕТ... НУ ВОТ КАКАЯ ЖАЛОСТЬ!</div>
+</BODY>
+
+</HTML>

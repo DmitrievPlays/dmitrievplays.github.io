@@ -1,0 +1,87 @@
+/*------MAIN PAGE------*/
+
+
+/*     CTRL + F5 if something not refreshing      */
+
+
+.MainPageContent
+{
+	position: relative;
+	height: 80%;
+}
+
+.Topper
+{
+	background: #34495e;
+	text-align: center;
+	border-radius: 20px 20px 0px 0px;
+	padding: 10px;
+	-webkit-user-select: none;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+.ContentList
+{
+	background: #12273c;
+	text-align: center;
+	border-radius: 0px 0px 0px 0px;
+	padding: 20px;
+	height: 60vh;
+	-webkit-user-select: none;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+	overflow-y: auto;
+	
+}
+
+.Table
+{
+	background: #34495e;
+	text-align: center;
+	border-radius: 20px;
+	padding: 10px;
+	-webkit-user-select: none;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+	overflow: auto;
+}
+
+.TableTop
+{
+	position: relative;
+	background: #34495e;
+	text-align: center;
+	border-radius: 14px;
+	top: 0px;
+	padding: 10px;
+	border-width: 2px;
+	border-color: #222222;
+	border-style: solid;
+	-webkit-user-select: none;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+	overflow: auto;
+}
+
+.TableInnerContent
+{
+	position: relative;
+	background: #34495e;
+	text-align: center;
+	border-radius: 14px;
+	padding: 10px;
+	border-width: 2px;
+	border-color: #222222;
+	border-style: solid;
+	-webkit-user-select: none;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+	overflow: auto;
+}
+
+.Bottomer
+{
+	position: relative;
+	background: #34495e;
+	text-align: center;
+	border-radius: 0px 0px 20px 20px;
+	padding: 10px;
+	-webkit-user-select: none;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
