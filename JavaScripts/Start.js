@@ -17,6 +17,7 @@ if (document.querySelector(".line").getBoundingClientRect().left < 50)
 {
   document.querySelector(".startScreen").style.opacity = 0;
   document.querySelector(".startScreen").style.pointerEvents = "none";
+  document.querySelector(".startScreen").classList.remove("startScreen");
   console.log("fff")
 }
 setTimeout("StartTime()", 500)}
