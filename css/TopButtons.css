@@ -65,7 +65,6 @@ body
 	background: #349663;
 	top: 0;
 	width: 100%;
-	height: 50px;
 	text-align: center;
 	font-family: CustomFont2;
 	z-index: 1;
@@ -75,9 +74,10 @@ body
 	flex-direction: row;
 }
 
-.ButtonToMain, .ButtonAbout, .Additional, .LastVideo
+.ButtonTop
 {
-	/*font-size: 18px;*/
+	font-size: calc(1.4vh + 1.4vw);
+  height: max-content;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #000000;
@@ -86,14 +86,13 @@ body
 	background: #238552;
 	white-space: normal;
 	font-family: CustomFont2;
-	font-size: calc(1vw + 1vh);
 	transition: .5s;
 	color: white;
 }
 
-.ButtonToMain:hover, .ButtonAbout:hover, .Additional:hover, .LastVideo:hover
+.ButtonTop:hover
 {
-	font-size: calc(1.2vw + 1.2vh);
+	font-size: calc(1.6vh + 1.6vw);
 	background: #127441;
 	transition: .5s;
 	cursor: url("../img/cursor.png"), auto;
@@ -114,6 +113,42 @@ body
 	top: 0px;
 }
 
+.sideSmallMenu
+{
+  position: fixed;
+  right: -3%;
+  bottom: 50%;
+  width: 5%;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px 0px 0px 5px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  transition: .2s;
+}
+
+.sideSmallMenu:hover
+{
+  width: 5%;
+  right: 0;
+}
+
+.sideSmallMenuButton
+{
+  width: auto;
+  margin: 10% 20%;
+  display: flex;
+  border-radius: 30px;
+  background: none;
+  transition: .4s;
+}
+
+.sideSmallMenuButton:hover
+{
+  width: auto;
+  margin: 15% 25%;
+}
+
 ::-webkit-scrollbar {
   width: 14px;
 }
@@ -121,7 +156,7 @@ body
 ::-webkit-scrollbar-track {
   background: #697888;
 }
- 
+
 ::-webkit-scrollbar-thumb {
   background: #eeeeee;
   border-radius: 20px;
