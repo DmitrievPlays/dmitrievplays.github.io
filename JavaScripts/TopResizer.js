@@ -1,7 +1,7 @@
 function net(){
 var intElemOffsetHeight = document.querySelector(".ThePageTitle").offsetHeight;
 
-document.querySelector(".Content").style.marginTop = document.querySelector(".ThePageTitle").offsetHeight + "px";
+document.querySelector(".Content").style.marginTop = document.querySelector(".ThePageTitle").getBoundingClientRect().height + "px";
 console.log(document.querySelector(".ThePageTitle").offsetHeight + "px");
 
 if (document.querySelector(".White") == undefined && window.innerWidth < 460)

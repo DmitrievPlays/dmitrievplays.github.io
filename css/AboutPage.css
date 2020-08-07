@@ -4,9 +4,9 @@
 .TopBlock
 {
 	position: relative;
-	background: #34495e;
+	background: rgb(45, 156, 98);
 	text-align: center;
-	border-radius: 20px 20px 0px 0px;
+	border-radius: 14px 14px 0px 0px;
 	padding: 10px;
 	-webkit-user-select: none;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
@@ -15,11 +15,11 @@
 .NextBlock
 {
 	position: relative;
-	background: #12273c;
+	background: rgb(0, 112, 76);
 	text-align: center;
 	font-size: 24px;
 	padding: 10px;
-	border-radius: 0px 0px 20px 20px;
+	border-radius: 0px 0px 14px 14px;
 	-webkit-user-select: none;
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
 }

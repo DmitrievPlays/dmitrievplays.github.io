@@ -4,9 +4,9 @@
 .videoBlock
 {
 	position: relative;
-	background: #12273c;
+	background: rgb(0, 112, 76);
 	text-align: center;
-	border-radius: 20px 20px 20px 20px;
+	border-radius: 14px 14px 14px 14px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 	-webkit-user-select: none;
 }
@@ -15,9 +15,9 @@
 {
 	position: relative;
 	text-align: left;
-	background: #34495e;
-	padding-left: 20px;
-	border-radius: 20px 20px 20px 20px;
+	background: rgb(45, 156, 98);
+	padding-left: 14px;
+	border-radius: 14px 14px 0px 0px;
 	-webkit-user-select: none;
 }
 
@@ -32,8 +32,8 @@
 	position: relative;
 	margin-top: 30px;
 	text-align: center;
-	background: #12273c;
-	border-radius: 20px 20px 20px 20px;
+	background: rgb(0, 112, 76);
+	border-radius: 14px 14px 14px 14px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 	-webkit-user-select: none;
 }
@@ -42,8 +42,8 @@
 {
 	position: relative;
 	text-align: center;
-	background: #34495e;
-	border-radius: 20px 20px 20px 20px;
+	background: rgb(45, 156, 98);
+	border-radius: 14px 14px 0px 0px;
 	-webkit-user-select: none;
 }
 
