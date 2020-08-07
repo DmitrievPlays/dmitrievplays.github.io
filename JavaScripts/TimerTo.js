@@ -2,7 +2,7 @@ var times = [new Date('2020-08-24 00:00:00'), new Date('2020-08-26 13:05:00'), n
 var content = ['МНЕ НЕЧЕГО ДЕЛАТЬ ;-)', "СКУЧНА", "АААААААА СЛОЖНА", "*_*"]
 var elem = document.createElement("img");
 elem.setAttribute("src", "img/clock.svg");
-elem.setAttribute("height", "768");
+elem.setAttribute("height", "100%");
 elem.src = 'img/clock.svg';
 console.log(elem);
 
