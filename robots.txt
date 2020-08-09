@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: 
-Sitemap: http://95.28.178.142/sitemaphere.xml
+
+Sitemap: https://dmitrievplays.github.io/sitemaphere.xml

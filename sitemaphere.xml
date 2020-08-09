@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-		xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-  <loc>http://95.28.178.142/Index.html</loc>
-  <loc>http://95.28.178.142/Index2.html</loc>
-  <loc>http://95.28.178.142/Index3.html</loc>
-  <loc>http://95.28.178.142/Index4.html</loc>
-  <lastmod>2020-07-17T14:26:28+00:00</lastmod>
+  <loc>https://dmitrievplays.github.io/index.html</loc>
+  <loc>https://dmitrievplays.github.io/Index2.html</loc>
+  <loc>https://dmitrievplays.github.io/Index3.html</loc>
+	<loc>https://dmitrievplays.github.io/Index4.html</loc>
+  <lastmod>2020-08-09T13:05:18+00:00</lastmod>
   <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
+  <priority>0.5</priority>
 
 </url>
-
 
 </urlset>
