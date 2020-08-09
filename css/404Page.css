@@ -49,14 +49,14 @@
 body
 {
 	margin: 0px;
-	background: #0a3d62;
+	background: rgb(10, 61, 98);
 	-webkit-user-select: none;
 	color: white;
 }
 
 .Content
 {
-	background: #0a3d62;
+	background: rgb(10, 61, 98);
 	-webkit-user-select: none;
 }
 
@@ -90,14 +90,14 @@ body
 
 .ThePageTitle
 {
-	background: #1b537d;
-	color: #aaaaaa;
+	background: rgb(27, 83, 125);
+	color: rgb(170, 170, 170);
 }
 
 .ThePageTitleText
 {
 	transform: SkewY(2deg);
-	background: #ffffff00;
+	background: rgba(255, 255, 255, 0);
 	text-align: center;
 	font-family: CustomFont;
 }
@@ -113,4 +113,3 @@ img
 	animation-timing-function: linear;
 	filter: invert(100%) opacity(15%);
 }
-

@@ -92,7 +92,7 @@
 	border-radius: 14px;
 	padding: 10px;
 	border-width: 2px;
-	border-color: #222222;
+	border-color: rgb(34, 34, 34);
 	border-style: solid;
 	-webkit-user-select: none;
 	overflow: auto;

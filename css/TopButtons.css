@@ -80,7 +80,7 @@ body
 	text-align: center;
 	font-size: calc(1.6vw + 1.6vh);
 	z-index: 1;
-	background: #45a774;
+	background: rgb(69, 167, 116);
 	font-family: CustomFont;
 	-webkit-user-select: none;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
@@ -101,7 +101,7 @@ h2
   align-items: center;
   width: calc(100vw - 20%);
   height: 40%;
-  bottom: 0;
+  bottom: -40vh;
   background: rgba(0, 0, 0, 0.6);
   margin: 0% 10%;
   z-index: 4;
@@ -148,7 +148,7 @@ h2
 .Top
 {
 	position: relative;
-	background: #349663;
+	background: rgb(52, 150, 99);
 	top: 0;
 	width: 100%;
 	text-align: center;
@@ -180,14 +180,14 @@ h2
 }
 
 ::-webkit-scrollbar-track {
-  background: #697888;
+  background: rgb(105, 120, 136);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #eeeeee;
+  background: rgb(238, 238, 238);
   border-radius: 14px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #748ca4;
+  background: rgb(116, 140, 164);
 }
