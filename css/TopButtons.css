@@ -87,7 +87,11 @@ body
   top: 0;
 }
 
-
+h2
+{
+	margin: 0;
+	font-size: 1em;
+}
 
 .menu
 {
