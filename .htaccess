@@ -1,6 +1,6 @@
 <ifmodule mod_expires.c>
 ExpiresActive On
-ExpiresDefault "access plus 0 days"
+ExpiresDefault "access plus 1 month"
 ExpiresByType image/jpg "access plus 1 month"
 ExpiresByType image/svg+xml "access 1 month"
 ExpiresByType image/gif "access plus 1 month"
