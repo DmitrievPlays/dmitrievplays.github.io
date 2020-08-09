@@ -1,4 +1,5 @@
 @media screen and (max-width: 1080px) {   /* if < 1080px */
+  .menuButton {font-size: 50pt;}
 	.videoName {font-size: 50px;}
 	.aboutVideo {font-size: 22px;}
 	.aboutVideoTitle {font-size: 40px;}
@@ -6,6 +7,7 @@
 }
 
 @media screen and (min-width: 1081px) {  /* if > 1080px  */
+  .menuButton {font-size: 30pt;}
 	.videoName {font-size: 54px;}
 	.aboutVideo {font-size: 14px;}
 	.aboutVideoTitle {font-size: 36px;}
@@ -133,6 +135,11 @@ h2
   justify-content: center;
   align-items: center;
   background: rgb(35, 133, 82);
+  margin-bottom: 4px;
+  border-style: solid;
+  border-collapse: separate;
+  border-width: 4px;
+  border-color: rgb(25, 100, 61);
 }
 
 .menuButton:hover
