@@ -41,7 +41,7 @@
 	display: contents;
 }
 
-img
+#timer
 {
 	position: relative;
   height: calc(100% - 20px);

@@ -68,6 +68,8 @@ body
 	display: block;
 	background: rgb(44, 71, 57);
 	color: white;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
 }
 
 .ThePageTitle
@@ -85,6 +87,60 @@ body
   top: 0;
 }
 
+
+
+.menu
+{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100vw - 20%);
+  height: 40%;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0% 10%;
+  z-index: 4;
+  transition-duration: .2s;
+  font-family: CustomFont2;
+}
+
+.menuArrow
+{
+  position: absolute;
+  top: calc(0px - 20%);
+  width: 100%;
+  height: 20%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 14px 14px 0px 0px;
+}
+
+#arrow
+{
+	position: relative;
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  margin: 10px;
+  transition-delay: .2s;
+  transition-duration: .3s;
+}
+
+.menuButton
+{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(35, 133, 82);
+}
+
+.menuButton:hover
+{
+  background: rgb(15, 93, 62);
+  cursor: pointer;
+}
+
 .Top
 {
 	position: relative;
@@ -98,30 +154,6 @@ body
 	white-space: normal;
 	display: flex;
 	flex-direction: row;
-}
-
-.ButtonTop
-{
-	font-size: calc(1.4vh + 1.4vw);
-  height: max-content;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
-	flex: auto;
-	outline-color: yellow;
-	background: #238552;
-	white-space: normal;
-	font-family: CustomFont2;
-	transition: .5s;
-	color: white;
-}
-
-.ButtonTop:hover
-{
-	font-size: calc(1.6vh + 1.6vw);
-	background: #127441;
-	transition: .5s;
-	cursor: url("../img/cursor.png"), auto;
 }
 
 .Content

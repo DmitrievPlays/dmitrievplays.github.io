@@ -1,19 +1,8 @@
-opened = false;
-function openNav() {
-	if(opened == false)
-	{
-		document.getElementById("mySidebar").style.minWidth = "180px";
-		document.getElementById("mySidebar").style.width = "25%";
-		document.getElementById("mySidebar").style.paddingLeft = "10px";
-		document.getElementById("mySidebar").style.paddingRight = "10px";
-		opened = true;
-	}
-	else if(opened == true)
-	{
-		document.getElementById("mySidebar").style.minWidth = "0px";
-		document.getElementById("mySidebar").style.width = "0%";
-		document.getElementById("mySidebar").style.paddingLeft = "0px";
-		document.getElementById("mySidebar").style.paddingRight = "0px";
-		opened = false;
-	}
+var p = -40;
+var d = 0;
+function toggleMenu() {
+	p = -1 * (p + 40);
+	d = -1 * (d + 180);
+	document.querySelector('.menu').style.bottom = p + "vh";
+	document.querySelector('#arrow').style.transform = 'rotate('+ d +'deg)'
 }
