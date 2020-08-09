@@ -3,8 +3,7 @@ var content = ['МНЕ НЕЧЕГО ДЕЛАТЬ ;-)', "СКУЧНА", "АААА
 var elem = document.createElement("img");
 elem.setAttribute("src", "img/clock.svg");
 elem.setAttribute("height", "100%");
-elem.src = 'img/clock.svg';
-console.log(elem);
+elem.setAttribute("alt", "clock");
 
 function StartScript()
 {
