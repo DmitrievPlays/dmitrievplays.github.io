@@ -1,50 +1,82 @@
 /*------VIDEO PAGE------*/
 
 
-.videoBlock
+.videoMainBlock
 {
 	position: relative;
+	display: flex;
+	width: 100%;
+	flex-direction: row;
 	background: rgb(0, 112, 76);
 	text-align: center;
 	border-radius: 14px 14px 14px 14px;
-	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+	-webkit-user-select: none;
+	overflow: hidden;
+}
+
+.videoMainLeftBlock
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: left;
+	background: rgb(45, 156, 98);
 	-webkit-user-select: none;
 }
 
-.videoName
+.videoMainRightBlock
 {
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 	text-align: left;
-	background: rgb(45, 156, 98);
-	padding-left: 14px;
-	border-radius: 14px 14px 0px 0px;
 	-webkit-user-select: none;
 }
 
 .videoContainer
 {
 	position: relative;
-	width: 100%;
+  width: 100%;
 }
 
-.aboutVideo
+.videoContainerTitle
 {
 	position: relative;
-	margin-top: 30px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	font-size: 1.5em;
+}
+
+.aboutContainer
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 	background: rgb(0, 112, 76);
-	border-radius: 14px 14px 14px 14px;
-	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 	-webkit-user-select: none;
 }
 
-.aboutVideoTitle
+.aboutContainerTitle
 {
 	position: relative;
 	text-align: center;
-	background: rgb(45, 156, 98);
-	border-radius: 14px 14px 0px 0px;
+	font-size: 1.5em;
+	padding: 10px 0px;
+	background: rgb(46, 133, 88);
 	-webkit-user-select: none;
+}
+
+.aboutContainerText
+{
+	position: relative;
+	text-align: left;
+	padding: 10px;
 }
 
 .ThePageTitle
