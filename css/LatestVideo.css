@@ -81,7 +81,12 @@
 
 .ThePageTitle
 {
-	min-width: 680px;;
+	min-width: 580px;;
+}
+
+.Content
+{
+	min-width: calc(580px - 8%);
 }
 
 iframe
