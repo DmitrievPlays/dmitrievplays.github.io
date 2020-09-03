@@ -5,9 +5,16 @@
   height: 300px;
 }
 
-.menu
+#menu
 {
   background: red;
   width: 100px;
   height: 300px;
+}
+
+#content
+{
+  background: grey;
+  width: 300px;
+  height: 400px;
 }
