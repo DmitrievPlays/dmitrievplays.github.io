@@ -1,7 +1,6 @@
 <html>
  <head>
   <title>Тестируем PHP</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
   <style type = "text/css">
     #menu
     {
